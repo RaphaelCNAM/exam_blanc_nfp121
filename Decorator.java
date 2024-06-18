@@ -1,0 +1,3 @@
+interface Decorator {
+    double primeAnnuelle();
+}

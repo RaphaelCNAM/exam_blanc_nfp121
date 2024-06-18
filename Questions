@@ -1,0 +1,31 @@
+Question 2 :
+
+Ce qui me déplaît est surtout le répétition du code pour gérer les catégories Patron, Employe et Stagiaire
+
+Question 3 :
+
+    - Polymorphisme :Utilisation interface Payable comme ça on peut appeler ma méthode getAnnuelPay sur des objets différents
+
+    - Interface : assure que les objets ont une méthode en commun pour la rémunération
+
+    - Encapsulation : les salaires et indeminités sont des détails cachés d'un objet et permet de fournir des méthodes pour interagir avec des détails.
+
+Question 4 :
+
+1 - Je crée l'interface Decorator.
+
+2 - Je crée la classe PrimeDecorator qui ajoute la prime annuelle.
+
+3 - J'utiliser la classe décorateur pour ajouter des primes aux objets de type Personne et donc Patron.
+
+Question 5 :
+
+    - Sérialisation : Permet de convertir un objet en un format qui peut être stocké et ensuite recréé.
+
+    - ObjectOutputStream et ObjectInputStream : Ces classes sont utilisées pour écrire et lire des objets dans des flux binaires.
+
+Question 8 :
+
+1 - Créer une interface avec les méthodes pour faire des paiements (pour les passerelles de paiement)
+
+2 - Créer des classes concrètes et ne pas oublier d'ajouter l'interface commune de Payement
